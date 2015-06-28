@@ -1,0 +1,15 @@
+<suite name="Yahoo">
+  <test name="Test IE Browser">
+  <parameter name="browser" value="ie" />
+    <classes>
+        <class name="yahoo.Test_prog" />
+         
+    </classes>
+   </test>  
+ <test name="Test Firefox Browser">
+ <parameter name="browser"  value="firefox" />
+    <classes>
+        <class name="yahoo.Test_prog" />         
+    </classes>
+   </test>    
+</suite>         
